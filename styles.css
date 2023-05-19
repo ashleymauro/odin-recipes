@@ -13,3 +13,12 @@ h1, .intro {
         text-align: center
 
 }
+
+h1, .links, .intro {
+        font-family: "MS PGothic", sans-serif;
+}
+
+img {
+        height: auto;
+        width: 300px;
+}
