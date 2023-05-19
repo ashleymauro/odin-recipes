@@ -1,0 +1,15 @@
+/* styles.css */
+
+h1, .intro {
+        color: grey;
+        background-color: lavender;
+        text-align: center
+}
+
+.links {
+
+        color: lavender;
+        background-color: lightgray;
+        text-align: center
+
+}
