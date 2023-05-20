@@ -6,42 +6,68 @@
     <title>Lasagna</title>
     <style>
         h1 {
-            background-color: rgb(122, 211, 122);
+            background-color: rgb(120, 207, 120);
             color: rgb(243, 81, 81);
-            font-weight: bold;
-            text-align: center;
         }
 
         img {
             height: auto;
-            width: 450px;
+            width: 500px;
         }
 
         h3 {
-            background-color: lightgoldenrodyellow;
-            color: rgb(122, 211, 122);
+            background-color: blanchedalmond;
+            color: rgb(108, 187, 108);
         }
 
-       .most {
-            background-color: lightgoldenrodyellow;
-            color: rgb(243, 81, 81);
-       }
+        .h1h3i, .home, .line {
+            text-align: center;
+        }
 
-       h1, h3, .most {
+       .main {
+            background-color: blanchedalmond;
+            color: rgb(108, 187, 108);
+        }
+
+       * {
             font-family: "MS PGothic", sans-serif;
-       }
+        }
 
-       .line {
-        text-align: center;
-       }
+        .line {
+            color:rgb(243, 81, 81)
+        }
 
+        h1, h3, img, .main {
+            border: 5px double grey;
+            border-radius: 30px;
+            padding: 5px;
+        }
+
+
+        a {
+        color: gray;
+        padding: 10px;
+        background-color: white;
+        background-image: linear-gradient(120deg, lavender 0%, lavender 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.0em;
+        background-position: 0 100%;
+        transition: background-size 0.225s ease-in;
+        text-decoration: none;
+        border-color: grey;
+        border-radius: 30px;
+        }
+      
+        a:hover,
+        a:focus {
+        background-size: 100% 100%;
+        }
 
     </style>
-
 </head>
 
 <body>
-    <h1>Lasagna</h1>
+    <div class="h1h3i"><h1>Lasagna</h1>
     <br>
     <img src="../lasagna.jpg" alt="lasagna">
     <br>
@@ -49,10 +75,9 @@
    <h3>This classic lasagna recipe is made with an easy
     meat sauce as the base.
     Layer the sauce with noodles and cheese,
-    then bake until bubbly!</h3>
+    then bake until bubbly!</h3></div>
 
-
-    <div class="most">
+    <div class="main">
         <p>Everyone loves a good lasagna, right?
         It's a great way to feed a crowd and a perfect dish
         to bring to a potluck. It freezes well. It reheats
@@ -100,8 +125,8 @@
    <li>Bake until bubbly and you're ready to eat!</li>
 </ol>
 <br>
-</div>
-        
+    <div class="home"><a href="../index.html">Home</a></div>
+<br>    
 </body>
 
 </html>

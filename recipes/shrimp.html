@@ -21,27 +21,56 @@
             background-color: rgb(101, 190, 182);
             color: beige;
        }
+
+       .h1h3i, .home, .line {
+            text-align: center;
+       }
        
-       .most {
+       .main {
             background-color: beige;
             color: rgb(101, 190, 182);
        }
 
-       h1, h3, .most, .line {
+       * {
             font-family: "MS PGothic", sans-serif;
        }
 
        .line {
         color: tan;
-        text-align: center;
        }
+
+       h1, img, h3, h1h3i, .main {
+        border: 5px double grey;
+        border-radius: 30px;
+        padding: 5px;
+       }
+
+       a {
+        color: gray;
+        padding: 10px;
+        background-color: white;
+        background-image: linear-gradient(120deg, lavender 0%, lavender 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 0.0em;
+        background-position: 0 100%;
+        transition: background-size 0.225s ease-in;
+        text-decoration: none;
+        border-color: grey;
+        border-radius: 30px;
+        }
+      
+        a:hover,
+        a:focus {
+        background-size: 100% 100%;
+        }
+
 
     </style>
 
 </head>
 
 <body>
-    <h1>Coconut Shrimp</h1>
+    <div class="h1h3i"><h1>Coconut Shrimp</h1>
     <br>
     <img src="../cshrimp.jpg" alt="shrimp">
 
@@ -50,9 +79,9 @@
     finger food and it always flies off the serving platter,
     especially if you serve it with a spicy sweet dipping sauce.
     The recipe and process are both easy, and it will be devoured
-    in no time!</h3>
+    in no time!</h3></div>
 
-    <div class="most">
+    <div class="main">
 <ul>
     <li>3/4 cup all-purpose flour, divided</li>
     <li>2/3 cup beer</li>
@@ -81,8 +110,9 @@
     </li>
     <li>Serve with desired sauce and enjoy!</li>
 </ol>
+
+<div class="home"><a href="../index.html">Home</a></div>
 <br>
-</div>
 </body>
 
 
