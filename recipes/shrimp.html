@@ -12,11 +12,6 @@
             text-align: center;
         }
 
-        img {
-            height: auto;
-            width: 500px;
-        }
-
        h3 {
             background-color: rgb(101, 190, 182);
             color: beige;
@@ -46,7 +41,6 @@
        }
 
        a {
-        color: gray;
         padding: 10px;
         background-color: white;
         background-image: linear-gradient(120deg, lavender 0%, lavender 100%);
@@ -54,14 +48,26 @@
         background-size: 100% 0.0em;
         background-position: 0 100%;
         transition: background-size 0.225s ease-in;
-        text-decoration: none;
         border-color: grey;
+        text-decoration: none;
         border-radius: 30px;
         }
       
-        a:hover,
-        a:focus {
+        img:hover, a:hover,
+        img:hover, a:focus {
         background-size: 100% 100%;
+        }
+
+        img {
+            height: auto;
+            width: 500px;
+            background-color: white;
+            background-image: linear-gradient(120deg, lightgray 0%, lightgray 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 0.0em;
+            background-position: 0 100%;
+            transition: background-size 0.225s ease-in;
+
         }
 
 

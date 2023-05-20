@@ -6,7 +6,6 @@
         }
 
         .intro {
-        color: lavender;
         background-color: lightgray;
         border-radius: 40px;
         }
@@ -16,11 +15,10 @@
         text-align: center;
         }
 
-        a {
+        a, img {
         color: gray;
-        border: 2px solid lavender;
         padding: 8px;
-        background-color: rgb(167, 230, 193);
+        background-color: rgb(179, 236, 203);
         background-image: linear-gradient(120deg, lavender 0%, lavender 100%);
         background-repeat: no-repeat;
         background-size: 100% 0.0em;
@@ -29,13 +27,12 @@
         text-decoration: none;
         border-radius: 30px;
         }
-      
-        a:hover,
-        a:focus {
+        
+        img:hover, a:hover,
+        img:focus, a:focus {
         border-color: lavender;
         background-size: 100% 100%;
         }
-
 
         h1, .links, .intro {
         border: 5px double grey;
@@ -44,7 +41,7 @@
         img {
         height: auto;
         width: 200px;
-        }
+        }       
 
         h1 {
         padding: 20px;

@@ -10,11 +10,6 @@
             color: rgb(243, 81, 81);
         }
 
-        img {
-            height: auto;
-            width: 500px;
-        }
-
         h3 {
             background-color: blanchedalmond;
             color: rgb(108, 187, 108);
@@ -58,10 +53,23 @@
         border-radius: 30px;
         }
       
-        a:hover,
-        a:focus {
+        img:hover, a:hover,
+        img:hover, a:focus {
         background-size: 100% 100%;
         }
+
+
+        img {
+            height: auto;
+            width: 500px;
+            background-color: white;
+            background-image: linear-gradient(180deg, lightgray 0%, lightgray 100%);
+            background-repeat: no-repeat;
+            background-size: 100% 0.0em;
+            background-position: 0 100%;
+            transition: background-size 0.225s ease-in;
+        }
+
 
     </style>
 </head>
