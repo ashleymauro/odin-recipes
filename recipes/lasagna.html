@@ -5,14 +5,23 @@
     <meta charset="utf-8">
     <title>Lasagna</title>
     <style>
+
+        body {
+        background-image: url("../recipeback.jpg");
+        background-size: 100% auto;
+        background-attachment: fixed;
+        }
+
         h1 {
             background-color: rgb(120, 207, 120);
             color: rgb(243, 81, 81);
+            margin: 30px 250px 30px 250px;
         }
 
         h3 {
             background-color: blanchedalmond;
             color: rgb(108, 187, 108);
+            margin: 50px 200px 50px 200px;
         }
 
         .h1h3i, .home, .line {
@@ -22,6 +31,7 @@
        .main {
             background-color: blanchedalmond;
             color: rgb(108, 187, 108);
+            margin: 50px 150px 50px 150px;
         }
 
        * {
@@ -33,7 +43,7 @@
         }
 
         h1, h3, img, .main {
-            border: 5px double grey;
+            border: 8px double white;
             border-radius: 30px;
             padding: 5px;
         }
@@ -53,44 +63,50 @@
         border-radius: 30px;
         }
       
-        img:hover, a:hover,
-        img:hover, a:focus {
+        a:hover,
+        a:focus {
         background-size: 100% 100%;
         }
 
-
         img {
-            height: auto;
-            width: 500px;
-            background-color: white;
-            background-image: linear-gradient(180deg, lightgray 0%, lightgray 100%);
-            background-repeat: no-repeat;
-            background-size: 100% 0.0em;
-            background-position: 0 100%;
-            transition: background-size 0.225s ease-in;
+        height: auto;
+        width: 500px;
+        object-fit: cover;
+        border: 8px double white;
+        border-radius: 50px;
+
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
         }
 
-
+        img:hover {
+            -webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+        }
+        
     </style>
 </head>
 
 <body>
     <div class="h1h3i"><h1>Lasagna</h1>
     <br>
-    <img src="../lasagna.jpg" alt="lasagna">
+    <img src="../lasag.jpeg" alt="lasagna">
     <br>
 
-   <h3>This classic lasagna recipe is made with an easy
+    <h3>This classic lasagna recipe is made with an easy
     meat sauce as the base.
     Layer the sauce with noodles and cheese,
-    then bake until bubbly!</h3></div>
+    then bake until bubbly!</h3>
+    </div>
 
     <div class="main">
         <p>Everyone loves a good lasagna, right?
         It's a great way to feed a crowd and a perfect dish
         to bring to a potluck. It freezes well. It reheats
         well. Leftovers will keep you happy for days.</p>
-    <p>For this recipe, we are essentially making a thick,
+        <p>For this recipe, we are essentially making a thick,
         meaty tomato sauce and layering that with noodles
         and cheese into a casserole. Here's the ingredients:</p>
 

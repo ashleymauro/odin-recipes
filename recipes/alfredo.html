@@ -6,6 +6,12 @@
     <title>Chicken Alfredo</title>
     <style>
 
+        body {
+        background-image: url("../recipeback.jpg");
+        background-size: 100% auto;
+        background-attachment: fixed;
+        }
+
         h1, .main {
             color: rgb(241, 177, 121);
             background-color: rgb(34, 141, 141);
@@ -14,6 +20,15 @@
         h3 {
             color: teal;
             background-color: rgb(241, 177, 121);
+            margin: 50px 200px 50px 200px;
+        }
+        
+        h1 {
+            margin: 30px 250px 30px 250px;
+        }
+
+        .main {
+            margin: 50px 150px 50px 150px;
         }
 
 
@@ -30,7 +45,7 @@
         }
 
         h1, h3, .main, img {
-            border: 5px double grey;
+            border: 8px double white;
             border-radius: 30px;
             padding: 5px;
         }
@@ -48,23 +63,29 @@
         border-radius: 30px;
         }
       
-        img:hover, a:hover,
-        img:focus, a:focus {
+        a:hover,
+        a:focus {
         background-size: 100% 100%;
         }
 
         img {
-            height: auto;
-            width: 500px;
-            background-color: white;
-            background-image: linear-gradient(120deg, lightgray 0%, lightgray 100%);
-            background-repeat: no-repeat;
-            background-size: 100% 0.0em;
-            background-position: 0 100%;
-            transition: background-size 0.225s ease-in;
-            border-radius: 30px;
+        height: auto;
+        width: 500px;
+        object-fit: cover;
+        border: 8px double white;
+        border-radius: 50px;
+
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
         }
 
+        img:hover {
+            -webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+        }
+    
     </style>
 </head>
 
@@ -72,18 +93,18 @@
     <div class="h1h3i"><h1>Chicken Alfredo</h1>
     <br>
     <img src="../calfredo.jpg" alt="alfredo">
-
         <h3>This easy Chicken Alfredo recipe includes golden pan-fried
         seasoned chicken breasts and tender noodles, coated in the
         most dreamy cream sauce ever. A showstopper meal and
-        it's all done in just over 30 minutes!</h3></div>
+        it's all done in just over 30 minutes!</h3>
+    </div>
 
 
 <div class="main">
 <h4>For the pasta:</h4>                
 <ul>
     <li>16 ounces dry fettucine pasta</li>
-    </ul>
+</ul>
 
 <h4>For the chicken:</h4>
 <ul>
@@ -121,19 +142,15 @@
         for 5-7 minutes, until the bottom is golden-brown. Flip
         over and add in 1 tbs of butter. Continue cooking for
         another 5-7 minutes (or an internal temperature reaches
-        165 degrees F.)
-    </li>
+        165 degrees F.)</li>
     <li>Transfer the chicken to cutting board and let rest for 
-        3 minutes. Cut into 1/2 inch thick slices.
-    </li>
+        3 minutes. Cut into 1/2 inch thick slices.</li>
     <li><em>Make the alfredo sauce:</em> In the same pan, over medium
     low heat, add the butter and cream; whisk until nutter has melted.</li>
     <li>Add in the minced garlic, garlic poweder, Italian seasoning,
-        salt and pepper; whisk until combined and smooth.
-    </li>
+        salt and pepper; whisk until combined and smooth.</li>
     <li>Stir in the parmesan cheese just until melted and
-        the sauce is smooth.
-    </li>
+        the sauce is smooth.</li>
     <li><em>Assemble:</em> Take sauce off the heat and immediately
     toss with the cooked fettuccine noddles.</li>
 </ol>

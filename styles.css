@@ -1,14 +1,63 @@
 
+        body {
+        background-image: url("abstract.jpg");
+        background-size: 100% auto;
+        background-attachment: fixed;
+        }
+
+        
         h1, .links {
-        color: grey;
+        color: slategray;
         background-color: lavender;
         border-radius: 40px;
         }
 
-        .intro {
-        background-color: lightgray;
-        border-radius: 40px;
+        h1 {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        margin: 0px 300px 0px 300px;
+        flex-wrap: wrap;
         }
+
+        .intro {
+        background-color: rgb(154, 237, 252);
+        border-radius: 40px;
+        display: flex;
+        color: slategray;
+        margin: 50px 50px 50px 50px;
+        flex-wrap: wrap;
+        }
+                .one {
+                flex: 1;
+                justify-content: center;
+                margin: auto;
+                padding: 50px;
+                }
+
+
+                .right {
+                flex: 2;
+                margin: auto;
+                padding: 50px;
+                flex-direction: column;
+                align-items: center;
+                }
+
+                        .two, .links {
+                                flex: 1;
+                                margin: auto;
+                        }
+
+                        .two { 
+                                padding: 0px 0px 30px 0px;
+                        }
+
+
+                        .links {
+                                padding: 30px;
+                        }
+
 
         * {
         font-family: "MS PGothic", sans-serif;
@@ -35,14 +84,10 @@
         }
 
         h1, .links, .intro {
-        border: 5px double grey;
+        border: 8px double white;
         }
 
         img {
         height: auto;
-        width: 200px;
-        }       
-
-        h1 {
-        padding: 20px;
-        }
+        width: 300px;
+        } 

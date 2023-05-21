@@ -4,17 +4,25 @@
     <meta charset="utf-8">
     <title>Coconut Shrimp</title>
     <style>
+        body {
+        background-image: url("../recipeback.jpg");
+        background-size: 100% auto;
+        background-attachment: fixed;
+        }
 
         h1 {
             background-color: rgb(101, 190, 182);
             color: beige;
             font-weight: bold;
             text-align: center;
+            margin: 30px 250px 30px 250px;
         }
+
 
        h3 {
             background-color: rgb(101, 190, 182);
             color: beige;
+            margin: 50px 200px 50px 200px;
        }
 
        .h1h3i, .home, .line {
@@ -24,6 +32,7 @@
        .main {
             background-color: beige;
             color: rgb(101, 190, 182);
+            margin: 50px 150px 50px 150px;
        }
 
        * {
@@ -34,14 +43,15 @@
         color: tan;
        }
 
-       h1, img, h3, h1h3i, .main {
-        border: 5px double grey;
+       h1, h3, .main, img {
+        border: 8px double white;
         border-radius: 30px;
         padding: 5px;
        }
 
        a {
         padding: 10px;
+        color: gray;
         background-color: white;
         background-image: linear-gradient(120deg, lavender 0%, lavender 100%);
         background-repeat: no-repeat;
@@ -53,23 +63,31 @@
         border-radius: 30px;
         }
       
-        img:hover, a:hover,
-        img:hover, a:focus {
+        a:hover,
+        a:focus {
         background-size: 100% 100%;
         }
+
 
         img {
             height: auto;
             width: 500px;
-            background-color: white;
-            background-image: linear-gradient(120deg, lightgray 0%, lightgray 100%);
-            background-repeat: no-repeat;
-            background-size: 100% 0.0em;
-            background-position: 0 100%;
-            transition: background-size 0.225s ease-in;
+            object-fit: cover;
+            border: 8px double white;
+            border-radius: 50px;
 
+            -webkit-transform: scale(1);
+	        transform: scale(1);
+	        -webkit-transition: .3s ease-in-out;
+	        transition: .3s ease-in-out;
         }
 
+        img:hover {
+
+            -webkit-transform: scale(1.1);
+	        transform: scale(1.1);
+
+        }
 
     </style>
 
@@ -79,13 +97,12 @@
     <div class="h1h3i"><h1>Coconut Shrimp</h1>
     <br>
     <img src="../cshrimp.jpg" alt="shrimp">
-
-<h3>
-    Golden, sweet, and crisp coconut shrimp is a crowd-favorite 
-    finger food and it always flies off the serving platter,
+    <h3>
+    Golden, sweet, and crisp coconut shrimp is a crowd-favorite and it always flies off the serving platter,
     especially if you serve it with a spicy sweet dipping sauce.
     The recipe and process are both easy, and it will be devoured
-    in no time!</h3></div>
+    in no time!</h3>
+    </div>
 
     <div class="main">
 <ul>
@@ -102,21 +119,18 @@
     <li>Line a baking sheet with wax paper; set aside.</li>
     <li>Whisk together 1/2 cup flour, beer, egg, and baking
         powder in a medium bowl until smooth. Place coconut and
-        remaining 1/4 cup flour in 2 seperate bowls.
-    </li>
+        remaining 1/4 cup flour in 2 seperate bowls.</li>
     <li>One at a time, hold shrimp by the tail and dredge in flour,
         shaking off excess. Dip in beer batter; allow excess to drip
         off. Roll in coconut, then place on the prepared baking sheet.
-        Refrigerate for 30 minutes.
-    </li>
+        Refrigerate for 30 minutes.</li>
     <li>Heat oil in a deep fryer or large skillet to 350 degrees F</li>
     <li>Working in batches, fry shrimp in hot oil, turning once,
         until golden brown, 2-3 minutes. Use tongs to remove shrimp to
-        paper towels to drain.
-    </li>
+        paper towels to drain.</li>
     <li>Serve with desired sauce and enjoy!</li>
 </ol>
-
+<br>
 <div class="home"><a href="../index.html">Home</a></div>
 <br>
 </body>
